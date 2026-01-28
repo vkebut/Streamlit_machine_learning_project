@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install required Python packages",
+			"type": "shell",
+			"command": "pip",
+			"args": [
+				"install",
+				"pandas",
+				"numpy",
+				"matplotlib",
+				"seaborn",
+				"scikit-learn",
+				"imbalanced-learn",
+				"joblib"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
